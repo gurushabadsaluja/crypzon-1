@@ -41,25 +41,28 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5 text-white">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
+            <form id="contact-form" name="contact-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                 <input type=hidden name="oid" value="00DIw000000AZpl">
+                 <input type=hidden name="retURL" value="https://ryuk6666.github.io/crypzon/index.html">
                 <!--Grid row-->
                 <div class="row text-white">
 
                     <!--Grid column-->
                     <div class="col-md-6 text-white">
                         <div class="md-form mb-0">
-                            <label for="name" class="">Your name</label>
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class=""> </label>
+                            <label for="first_name" class="">First Name</label>
+                         
+                            <input type="text" id="first_name" name="first_name" class="form-control">
+                            
                         </div>
                     </div>
                     <!--Grid column-->
                     <div class="col-md-6 text-white">
                         <div class="md-form mb-0">
-                            <label for="name" class="">Phone number</label>
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">  </label>
+                            <label for="last_name" class="">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" class="form-control">
+                            <label for="" class="">  </label>
+                           
                         </div>
                     </div>
 
@@ -68,94 +71,39 @@
                         <div class="md-form mb-0">
                             <label for="email" class="">Your email</label>
                             <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">  </label>
+                            <label for="" class="">  </label>
                         </div>
                     </div>
 
                     <div class="col-md-8">
                         <div class="md-form mb-0">
-                            <label for="email" class="">Address</label>
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">  </label>
+                            <label for="company" class="">Company</label>
+                            <input type="text" id="company" name="company" class="form-control">
+                            <label for="" class="">  </label>
                         </div>
                     </div>
 
                     <div class="col-md-8">
                         <div class="md-form mb-0">
-                            <label for="email" class="">State</label>
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">  </label>
+                            <label for="city" class="">City</label>
+                            <input type="text" id="city" name="city" class="form-control">
+                            <label for="" class="">  </label>
                         </div>
                     </div>
 
                     <div class="col-md-8">
                         <div class="md-form mb-0">
-                            <label for="email" class="">Country</label>
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">  </label>
+                            <label for="state" class="">State</label>
+                            <input type="text" id="state" name="state" class="form-control">
+                            <label for="" class="">  </label>
                         </div>
                     </div>
                     <!--Grid column-->
 
-                </div>
-                <!--Grid row-->
-                <div class="col-md-5">
-                <label for="sel11">Select GPU</label>
-                <select class="form-control" id="sel1">
-                    <option>NVIDIA GeForce RTX 3060 Ti  </option>
-                    <option>AMD Radeon RX 5700 XT</option>
-                    <option>NVIDIA GeForce RTX 3090</option>
-                    <option>NVIDIA GeForce RTX 2070</option>
-                    <option>NVIDIA GeForce GTX 1660 SUPER</option>
-                    <option>AMD Radeon RX 580</option>
-                  </select>
-                  <label for=""> </label>
-                <div>
+                            
+               
 
-                    <div class="col-md-8">
-                        <label for="sel1">Select Quantity</label>
-                        <select class="form-control" id="sel2">
-                            <option>1</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                          </select>
-                          <label for="sel1"> </label>
-                        <div>
-
-                   
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <label for="subject" class="">Budget</label>
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class=""></label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <label for="message">Your message</label>
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message"></label>
-                        </div>
-
-                    </div>
-                </div>
+             
                 <!--Grid row-->
 
             </form>
@@ -165,11 +113,7 @@
             </div>
             <div class="status"></div>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        
-        <!--Grid column-->
+      
 
     </div>
 
